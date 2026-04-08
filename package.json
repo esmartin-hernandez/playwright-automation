@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "End-to-end and API test automation framework using Playwright and TypeScript, featuring scalable architecture, CI/CD integration, reporting, and best QA practices.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "setup": "npm install && npx playwright install",
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/esmartin-hernandez/playwright-automation.git"
