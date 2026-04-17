@@ -6,7 +6,8 @@
   "scripts": {
     "setup": "npm install && npx playwright install",
     "test": "npx playwright test",
-    "test:ui": "npx playwright test --ui"
+    "test:ui": "npx playwright test --ui",
+    "report": "playwright show-report"
   },
   "repository": {
     "type": "git",
